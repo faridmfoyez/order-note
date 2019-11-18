@@ -1,1 +1,9 @@
-<p>product-list works!</p>
+<div fxLayout="row wrap">
+    <mat-card fxFlex *ngFor="let product of products">
+        <img mat-card-image
+            src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Product Photo">
+        <mat-card-content>
+            {{ product.Name }}
+        </mat-card-content>
+    </mat-card>
+</div>
