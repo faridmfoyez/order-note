@@ -1,0 +1,10 @@
+<div fxLayout="row wrap" fxLayoutAlign="center center" fxLayoutGap="15px grid">
+    <div fxFlex="300px" *ngFor="let productCategory of productCategories" class="product-category-wrapper">
+        <a [routerLink]="productCategory.Id" class="product-category-card">
+            <img class="product-category-img" [src]="productCategory.Photo" alt="product-category Photo">
+            <div class="product-category-name">
+                {{ productCategory.Name }}
+            </div>
+        </a>
+    </div>
+</div>

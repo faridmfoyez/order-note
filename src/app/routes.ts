@@ -11,11 +11,15 @@ export const routes: Routes = [
     },
     {
         path: 'products',
-        loadChildren: () => import('./products/products.module').then(m => m.ProductsModule),
+        loadChildren: () => import('./product-categories/product-categories.module').then(m => m.ProductCategoriesModule),
         data: {
             navigationText: 'Products',
             showNavigation: true
         }
+    },
+    {
+        path: 'products/:category',
+        loadChildren: () => import('./products/products.module').then(m => m.ProductsModule)
     },
     {
         path: 'outlets',

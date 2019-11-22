@@ -1,0 +1,25 @@
+.product-category-wrapper {
+    position: relative;
+    width: 300px;
+
+    .product-category-card {
+        position: relative;
+        width: 100%;
+    
+        .product-category-img {
+            width: 100%;
+        }
+
+        .product-category-name {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            background: rgba(63, 81, 181, .6);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+    }
+}
