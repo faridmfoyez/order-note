@@ -12,18 +12,22 @@ export class ProductListComponent implements OnInit {
     {
       Id: 'muffin',
       Name: 'Muffin',
+      Photo: 'http://dancake.com.bd/wp-content/uploads/2019/01/Chocolate-Muffin-2-1.jpg',
     },
     {
       Id: 'layer-cake',
-      Name: 'Layer Cake'
+      Name: 'Layer Cake',
+      Photo: 'http://geeky.digital/dcake/wp-content/uploads/2019/01/Layer-Cake.jpg'
     },
     {
       Id: 'swiss-roll',
-      Name: 'Swiss Roll'
+      Name: 'Swiss Roll',
+      Photo: 'http://geeky.digital/dcake/wp-content/uploads/2019/01/Chocolate-Swiss-Roll-1.jpg'
     },
     {
       Id: 'macaroons',
-      Name: 'Macaroons'
+      Name: 'Macaroons',
+      Photo: 'http://geeky.digital/dcake/wp-content/uploads/2019/01/Coconut-Macaroons-1.jpg'
     },
   ];
 
